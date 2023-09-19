@@ -180,7 +180,7 @@ st.write("AQI values across the world often reveal alarming levels of pollution,
 st.subheader('International Air Quality Range')
 st.image('https://oizom.com/wp-content/uploads/2019/08/4-2.png')
 aqi_country = gsup.aqi_country
-st.plotly_chart(aqi_country, use_container_width=True)
+st.plotly_chart(aqi_country)
 
 bucket =  gsup.list1
 aqi = st.selectbox('Select a AQI Bucket', bucket)
@@ -189,7 +189,7 @@ arr = gsup.detect_aqi(aqi)
 st.dataframe(arr)
 
 st.plotly_chart(gsup.country_aqi_pie, use_container_width=True)
-st.plotly_chart(gsup.aqi_catergory_grp, use_container_width=True)
+st.plotly_chart(gsup.aqi_catergory_grp)
 
 bucket2 = gsup.list1
 aqicc = st.selectbox('Select a AQI county Bucket', bucket2)
