@@ -2,7 +2,6 @@ import numpy as np
 import pandas as pd
 import matplotlib.pyplot as plt
 import seaborn as sns
-import missingno as msno
 import plotly.express as px
 import geopandas as gpd
 import warnings
@@ -39,9 +38,6 @@ city_day_data_req = city_day_data[series].copy()
 city_day_data_req.isna().sum().sum()
 city_day_newdata_req = city_day_data_req.dropna()
 
-msno.bar(city_day_data)
-msno.matrix(city_day_data)
-msno.heatmap(city_day_data)
 
 city_hour_new_data = city_hour_data.dropna()
 city_day_new_data = city_day_data.dropna()
