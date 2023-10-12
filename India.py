@@ -100,7 +100,7 @@ st.markdown(
   unsafe_allow_html=True)
 
 st.image(
-  "https://cdn-cenii.nitrocdn.com/dxZQGVjeOyXblsYkcsxiHEoJOLKUvtcl/assets/images/optimized/rev-a677aee/www.pranaair.com/wp-content/uploads/2021/08/health-imapcts-of-pm2.5-pollution.png",
+  "https://airgeorgia.org/images/AQImeaning600pxwide.png",
 )
 
 st.subheader('PM10')
