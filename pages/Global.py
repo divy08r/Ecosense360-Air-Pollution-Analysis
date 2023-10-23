@@ -74,7 +74,7 @@ div.content {
 }
 </style>
 <div class="sidebar">
-  <a class="" href="#home">
+  <a class="" href="https://ecosense360-home.onrender.com">
     <img class="iconss" src="https://i.pinimg.com/originals/d7/34/6c/d7346c03444c44944cf2f5b5674ccf27.png">
     Home
   </a>
